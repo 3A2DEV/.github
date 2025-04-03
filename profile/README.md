@@ -17,3 +17,5 @@
       command: "/usr/sbin/organization init {{ country }}.{{ name }}"
 ```
 ---
+
+![3A2DEV](../3A2DEV.svg)
