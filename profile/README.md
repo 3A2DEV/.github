@@ -17,7 +17,18 @@
       command: "/usr/sbin/organization init {{ country }}.{{ name }}"
 ```
 ---
-![orgflow](../orgflow.svg)
+<picture>
+  <source
+    srcset="../orgflow.svg"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="../orgflow_white.svg"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="../orgflow.svg" />
+</picture>
+
 ---
 
 ### Links
